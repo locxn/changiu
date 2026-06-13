@@ -5,17 +5,13 @@ function Envelope({ isOpen, onOpen }) {
     <motion.button
       type="button"
       aria-label="Open birthday envelope"
-      onClick={() => !isOpen && onOpen()}
+      onClick={onOpen}
       className="relative -mt-4 h-36 w-64 rounded-xl border border-rose-taupe/35 bg-champagne/80 shadow-[0_22px_50px_rgba(47,85,38,.18)] backdrop-blur-sm sm:-mt-6 sm:h-40 sm:w-72"
       initial={{ opacity: 0, y: 34, scale: 0.9 }}
       animate={{ opacity: 1, y: 0, scale: 1 }}
       exit={{ opacity: 0, y: 20 }}
-      whileHover={
-        !isOpen
-          ? { y: -6, boxShadow: "0 28px 65px rgba(47,85,38,.22)" }
-          : undefined
-      }
-      whileTap={!isOpen ? { scale: 0.98 } : undefined}
+      whileHover={{ y: -6, boxShadow: "0 28px 65px rgba(47,85,38,.22)" }}
+      whileTap={{ scale: 0.98 }}
       transition={{ type: "spring", stiffness: 110, damping: 17, mass: 0.9 }}
     >
       <span className="sr-only">Open me</span>

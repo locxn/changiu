@@ -19,13 +19,12 @@ function App() {
   const prefersReducedMotion = useReducedMotion();
 
   const showLetter = useCallback(() => {
+    const letterDelay = envelopeOpened ? 0 : prefersReducedMotion ? 80 : 1500;
+
     setEnvelopeOpened(true);
     setMusicRequested(true);
-    window.setTimeout(
-      () => setLetterOpen(true),
-      prefersReducedMotion ? 80 : 1500,
-    );
-  }, [prefersReducedMotion]);
+    window.setTimeout(() => setLetterOpen(true), letterDelay);
+  }, [envelopeOpened, prefersReducedMotion]);
 
   const continueToPage = useCallback(() => {
     setLetterOpen(false);
