@@ -11,7 +11,7 @@ export default defineConfig(({ command }) => ({
   root: projectRoot,
   // Use / locally so the dev server opens cleanly, but keep the
   // GitHub Pages base path for production builds and deploys.
-  base: command === 'serve' ? '/' : '/chang-birthday/',
+  base: command === 'serve' ? '/' : '/changiu/',
   plugins: [react(), tailwindcss()],
   server: {
     host: '127.0.0.1',

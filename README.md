@@ -30,7 +30,7 @@ Then open:
 http://127.0.0.1:5173/
 ```
 
-Local development uses `/` for convenience. Production builds still use `/chang-birthday/` for GitHub Pages.
+Local development uses `/` for convenience. Production builds still use `/changiu/` for GitHub Pages.
 
 ## Build
 
@@ -48,7 +48,7 @@ npm run preview
 
 ## Deploy to GitHub Pages
 
-1. Create a GitHub repository named `chang-birthday`.
+1. Create a GitHub repository named `changiu`.
 2. Push this code to GitHub.
 3. Run:
 
@@ -64,7 +64,7 @@ npm run preview
 Your website will be available at:
 
 ```text
-https://YOUR_USERNAME.github.io/chang-birthday/
+https://locxn.github.io/changiu/
 ```
 
 ## How to change the repo name
@@ -109,7 +109,7 @@ public/audio/birthday-song.mp3
 
 Keep the filename exactly the same unless you also update `src/components/MusicPlayer.jsx`.
 
-In code, the player resolves the file using Vite’s base path, so it works both locally and when deployed under `/chang-birthday/` on GitHub Pages.
+In code, the player resolves the file using Vite’s base path, so it works both locally and when deployed under `/changiu/` on GitHub Pages.
 
 The song starts only after the envelope is clicked. It does not autoplay before user interaction. If the file is missing, the site still works and shows the music control as optional.
 

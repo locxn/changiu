@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://YOUR_USERNAME.github.io/chang-birthday/",
+  "homepage": "https://locxn.github.io/changiu/",
   "scripts": {
     "dev": "node node_modules/vite/bin/vite.js --host 127.0.0.1 --port 5173 --strictPort",
     "build": "node node_modules/vite/bin/vite.js build",
