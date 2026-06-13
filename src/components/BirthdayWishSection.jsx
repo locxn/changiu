@@ -32,7 +32,7 @@ function BirthdayWishSection() {
           <p>Loc</p>
         </div>
         <img
-          src="/loc.jpeg"
+          src={`${import.meta.env.BASE_URL}loc.jpeg`}
           alt="Loc"
           className="mt-8 aspect-square w-full rounded-[1.5rem] object-cover shadow-[0_18px_45px_rgba(47,85,38,.16)]"
         />
