@@ -38,7 +38,7 @@ function LetterDialog({ onClose, onContinue }) {
           <div>
             <p className="font-serif text-sm italic text-eucalyptus">June 14</p>
             <h2 id="letter-title" className="font-serif text-3xl text-forest">
-              Happy Birthday, Chang
+              Happy Birthday, Changu
             </h2>
           </div>
           <button

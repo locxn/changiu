@@ -31,6 +31,11 @@ function BirthdayWishSection() {
           <p>Meow Meow,</p>
           <p>Loc</p>
         </div>
+        <img
+          src="/loc.jpeg"
+          alt="Loc"
+          className="mt-8 aspect-square w-full rounded-[1.5rem] object-cover shadow-[0_18px_45px_rgba(47,85,38,.16)]"
+        />
       </motion.div>
     </section>
   );
