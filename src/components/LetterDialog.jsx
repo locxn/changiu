@@ -67,7 +67,7 @@ function LetterDialog({ onClose, onContinue }) {
           </p>
           <p>
             It has been great getting to know you, and I hope I can always be
-            your number one supporter.
+            your number one supporter. Whenever, wherever.
           </p>
         </div>
 

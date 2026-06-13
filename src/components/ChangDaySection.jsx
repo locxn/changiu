@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 const requirements = [
-  { icon: "🍽️", text: "always eat something good, and drink alot of water" },
+  { icon: "🍽️", text: "eat good, and drink alot of water" },
   { icon: "🤍", text: "smile a lot, even on your worst days" },
   { icon: "📷", text: "take cute pictures, and send them to me" },
   { icon: "🌿", text: "don’t be stressed, pet the cats" },
